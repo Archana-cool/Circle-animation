@@ -1,0 +1,143 @@
+.circle{
+    position: relative;
+    left: 300px;
+    top: 100px;
+    height: 200px;
+    width: 220px;
+    animation-name: circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+ @keyframes circle{
+     0%{transform: rotate(0deg);}  
+    100%{transform: rotate(-360deg);}  
+    }     
+.a{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    animation-name: a-circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes a-circle{
+    0% {background-color: yellowgreen;border: yellowgreen;}
+    25%{background-color: blueviolet;border: blueviolet;}
+    50%{background-color: black;border: black;}
+    75%{background-color: lightgreen;border: lightgreen;}
+    85%{background-color: orange;border: orange;}
+    100%{background-color: brown;border: brown;}
+  }
+.b{
+    position: absolute;
+    left: 130px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: 1px solid green;
+    background-color: green;
+    animation-name: b-circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes b-circle{
+    0%{background-color: blue;border: blue;}
+    25%{background-color: lightcoral;border: lightcoral;}
+    50%{background-color: palevioletred;border: palevioletred;}
+    75%{background-color: black;border: black;}
+    85%{background-color: white;border: white;}
+    100%{background-color: aqua;border: aqua;}
+  }
+.c{
+    position: absolute;
+    left: 2px;
+    top: 70px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: 1px solid violet;
+    background-color: violet;
+    animation-name: c-circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes c-circle{
+    0% {background-color: darkred;border: darkred;}
+    25%{background-color: darkgreen;border: darkgreen;}
+    50%{background-color: lightpink;border: lightpink;}
+    75%{background-color: cornflowerblue;border: cornflowerblue;}
+    85%{background-color: deeppink;border: deeppink;}
+    100%{background-color: yellow;border: yellow;}
+  }
+.d{
+    position: absolute;
+    left: 170px;
+    top: 70px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: 1px solid red;
+    background-color: red;
+    animation-name: d-circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes d-circle{
+    0% {background-color: chartreuse;border: chartreuse;}
+    25%{background-color: pink;border: pink;}
+    50%{background-color: grey;border: grey;}
+    75%{background-color: crimson;border: crimson;}
+    85%{background-color: blue;border: blue;}
+    100%{background-color: lightseagreen;border: lightseagreen;}
+  }
+.e{
+    position: absolute;
+    left: 50px;
+    top: 145px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    animation-name: e-circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes e-circle{
+    0% {background-color: lightgreen;border: lightgreen;}
+    25%{background-color: darkorange;border: darkorange;}
+    50%{background-color: lightpink;border: lightpink;}
+    75%{background-color: cornflowerblue;border: cornflowerblue;}
+    85%{background-color: darkblue;border: darkblue;}
+    100%{background-color: navajowhite;border: navajowhite;}
+  }
+.f{
+    position: absolute;
+    left: 140px;
+    top: 145px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: 1px solid blue;
+    background-color: blue;
+    animation-name: f-circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes f-circle{
+    0% {background-color: lightgreen;border: lightgreen;}
+    25%{background-color: lightyellow;border: lightyellow;}
+    50%{background-color: darkorange;border: darkorange;}
+    75%{background-color: cornflowerblue;border: cornflowerblue;}
+    85%{background-color: yellowgreen;border: yellowgreen;}
+    100%{background-color: black;border: black;}
+  }
